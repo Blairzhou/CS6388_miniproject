@@ -18,6 +18,10 @@
       "Digits": {
         "src": "src/plugins/Digits",
         "test": "test/plugins/Digits"
+      },
+      "CreateGames": {
+        "src": "src/plugins/CreateGames",
+        "test": "test/plugins/CreateGames"
       }
     }
   },
