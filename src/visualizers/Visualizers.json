@@ -1,0 +1,14 @@
+[
+  {
+    "id": "Digits",
+    "title": "Digits",
+    "panel": "panels/Digits/DigitsPanel",
+    "DEBUG_ONLY": false
+  },
+  {
+    "id": "ICore",
+    "title": "ICore",
+    "panel": "panels/ICore/ICorePanel",
+    "DEBUG_ONLY": false
+  }
+]

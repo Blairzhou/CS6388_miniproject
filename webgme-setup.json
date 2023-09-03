@@ -1,0 +1,38 @@
+{
+  "components": {
+    "seeds": {
+      "DIGITS": {
+        "src": "src/seeds/DIGITS"
+      }
+    },
+    "visualizers": {
+      "Digits": {
+        "src": "panels/Digits/DigitsPanel",
+        "title": "Digits",
+        "panel": "src/visualizers/panels/Digits",
+        "secondary": false,
+        "widget": "src/visualizers/widgets/Digits"
+      }
+    },
+    "plugins": {
+      "Digits": {
+        "src": "src/plugins/Digits",
+        "test": "test/plugins/Digits"
+      }
+    }
+  },
+  "dependencies": {
+    "seeds": {},
+    "visualizers": {
+      "ICore": {
+        "src": "panels/ICore/ICorePanel",
+        "title": "ICore",
+        "panel": "src/visualizers/panels/ICore",
+        "secondary": false,
+        "widget": "src/visualizers/widgets/ICore",
+        "project": "webgme-icore"
+      }
+    },
+    "plugins": {}
+  }
+}
