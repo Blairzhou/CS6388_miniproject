@@ -22,6 +22,10 @@
       "CreateGames": {
         "src": "src/plugins/CreateGames",
         "test": "test/plugins/CreateGames"
+      },
+      "checkCurrentValue": {
+        "src": "src/plugins/checkCurrentValue",
+        "test": "test/plugins/checkCurrentValue"
       }
     }
   },
