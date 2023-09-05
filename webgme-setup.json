@@ -26,6 +26,10 @@
       "checkCurrentValue": {
         "src": "src/plugins/checkCurrentValue",
         "test": "test/plugins/checkCurrentValue"
+      },
+      "undo": {
+        "src": "src/plugins/undo",
+        "test": "test/plugins/undo"
       }
     }
   },
